@@ -1,0 +1,31 @@
+.hello{
+  background-image: url("../../images/hello-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40% 0;
+  &__head{
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: $color-blue;
+    margin: 0;
+    margin-bottom: 20px;
+    &_large{
+      font-size: 45px;
+      color: #fff;
+      display: block;
+    }
+  }
+  &__text{
+    margin-bottom: 40px;
+  }
+  p{
+    width: 350px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+    text-indent: 37px;
+    margin: 0;
+  }
+}

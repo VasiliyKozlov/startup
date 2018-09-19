@@ -1,0 +1,59 @@
+.features {
+  background-image: url("../../images/features-back.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  &__list {
+    background-image: url("../../images/phone-back.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 685px;
+    &-item {
+      position: absolute;
+      font-size: 18px;
+      width: 220px;
+      &-head {
+        margin-bottom: 10px;
+        text-transform: uppercase;
+      }
+      &_1{
+        top: -5px;
+        left: 380px;
+      }
+      &_2{
+        top: 100px;
+        left: 545px;
+      }
+      &_3{
+        top: 205px;
+        left: 710px;
+      }
+      &_4{
+        top: 303px;
+        left: 848px;
+        width: 110px;
+      }
+      &_5{
+        top: 570px;
+        left: 755px;
+      }
+      &_6{
+        top: 640px;
+        left: 328px;;
+      }
+      &_7{
+        top: 540px;
+        left: 130px;
+      }
+      &_8{
+        top: 410px;
+        left: 10px;
+      }
+      &_9{
+        top: 77px;
+        left: 8px;
+      }
+    }
+  }
+}

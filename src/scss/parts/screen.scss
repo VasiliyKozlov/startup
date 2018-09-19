@@ -1,0 +1,19 @@
+.screen{
+  padding-top: 50px;
+  padding-bottom: 45px;
+  &__head{
+    font-size: 36px;
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    line-height: 0.8;
+    &_blue{
+      color: $color-blue;
+    }
+    &_small{
+      font-size: 18px;
+
+    }
+  }
+}

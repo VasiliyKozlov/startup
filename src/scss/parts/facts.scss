@@ -1,0 +1,25 @@
+.facts{
+  padding-top: 25px;
+  &__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__item{
+    width: 310px;
+    height: 210px;
+    &-img{
+      height: 95px;
+      text-align: center;
+      line-height: 100px;
+    }
+    &-txt{
+      width: 160px;
+      margin: auto;
+      font-size: 18px;
+      text-align: center;
+      line-height: 1.1;
+    }
+  }
+}

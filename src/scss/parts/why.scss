@@ -1,0 +1,26 @@
+.why{
+  background-color: #f4f4f4;
+  box-shadow: 0 5px 10px rgba(0,0,0, .1) inset, 11px -5px 10px rgba(0,0,0, .1) inset;
+  &__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &-item{
+      width: 220px;
+      &-img{
+        height: 120px;
+        text-align: center;
+        line-height: 100px;
+      }
+      &-txt{
+        width: 160px;
+        margin: auto;
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.4;
+      }
+    }
+  }
+
+}

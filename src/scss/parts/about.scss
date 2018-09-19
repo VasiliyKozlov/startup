@@ -1,0 +1,79 @@
+.about {
+  background-image: url("../../images/about-back.png");
+  height: 1132px;
+  background-repeat: no-repeat;
+  background-position: -340px 21px;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  .wrapper {
+    width: 1430px;
+    position: relative;
+    height: 100%;
+  }
+  &__head {
+    font-size: 36px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 22px;
+  }
+  &__txt-1 {
+    position: absolute;
+    top: -68px;
+    left: 660px;
+    width: 445px;
+  }
+  &__txt-2 {
+    position: absolute;
+    top: 410px;
+    left: 120px;
+    width: 520px;
+    .about__head,
+    p {
+      color: #fff;
+    }
+  }
+  &__txt-3 {
+    position: absolute;
+    left: 120px;
+    top: 653px;
+    width: 430px;
+  }
+  &__form {
+    position: absolute;
+    bottom: 80px;
+    right: 10px;
+    width: 440px;
+    height: 230px;
+    padding: 20px;
+    &-head {
+      font-size: 21px;
+      text-transform: uppercase;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    &-inner {
+      height: 100%;
+      border: 1px solid #fff;
+      padding: 23px;
+      box-sizing: border-box;
+      .input-text {
+        width: 140px;
+        margin-bottom: 20px;
+      }
+      .btn {
+        width: 170px;
+        font-size: 13px;
+      }
+    }
+    .form__wrapper {
+      flex-wrap: wrap;
+    }
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0;
+
+  }
+}

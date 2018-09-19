@@ -1,0 +1,25 @@
+.footer{
+  height: 50px;
+  background-color: #000000;
+  .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+  &__nav{
+    justify-content: flex-start;
+  }
+  &__nav-link{
+    font-size: 16px;
+    color: #c7d0d4;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #c7d0d4;
+    text-decoration: none;
+  }
+  &__copy{
+    font-size: 16px;
+    color: #c7d0d4;
+  }
+}

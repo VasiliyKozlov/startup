@@ -1,17 +1,18 @@
-
-
-
-body{
+body {
   font-family: Eurofurence, sans-serif;
   font-size: 10px;
 }
-.wrapper{
+.l {
+  max-width: 1400px;
+  margin: auto;
+}
+.wrapper {
   width: 960px;
   margin: auto;
   padding-left: 10px;
   padding-right: 10px;
   box-sizing: border-box;
-  &_form{
+  &_form {
     width: 1045px;
     padding-left: 50px;
     padding-right: 50px;
@@ -20,4 +21,3 @@ body{
     padding-bottom: 20px;
   }
 }
-
